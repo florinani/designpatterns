@@ -1,8 +1,8 @@
-package decorator;
+package decorator.model1;
 
-public class Tinsel extends TreeDecorator {
+public class BubbleLights extends TreeDecorator {
 
-    public Tinsel(ChristmasTree tree) {
+    public BubbleLights(ChristmasTree tree) {
         super(tree);
     }
 
@@ -11,7 +11,6 @@ public class Tinsel extends TreeDecorator {
     }
 
     private String decorateWithBubbleLights() {
-        return " with Tinsel";
+        return " with Bubble Lights";
     }
 }
-

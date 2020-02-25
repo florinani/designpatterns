@@ -1,4 +1,4 @@
-package decorator;
+package decorator.model1;
 
 public abstract class TreeDecorator implements ChristmasTree{
 
@@ -9,6 +9,6 @@ public abstract class TreeDecorator implements ChristmasTree{
     }
 
     public String decorate() {
-        return null;
+        return christmasTree.decorate();
     }
 }

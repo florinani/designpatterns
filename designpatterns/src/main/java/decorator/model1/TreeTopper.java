@@ -1,8 +1,8 @@
-package decorator;
+package decorator.model1;
 
-public class Garland extends TreeDecorator {
+public class TreeTopper extends TreeDecorator {
 
-    public Garland(ChristmasTree tree) {
+    public TreeTopper(ChristmasTree tree) {
         super(tree);
     }
 
@@ -11,6 +11,6 @@ public class Garland extends TreeDecorator {
     }
 
     private String decorateWithBubbleLights() {
-        return " with Garland";
+        return " with Tree Topper";
     }
 }
